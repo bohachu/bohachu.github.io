@@ -20,6 +20,10 @@ body {
 	font-size: 16px;
 }
 
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 .top-banner {
     position: relative;

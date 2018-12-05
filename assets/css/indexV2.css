@@ -1,6 +1,7 @@
 /* COLOUR REFERENCES
 
 Green:		#1b7069
+Blue:       #141d63
 
 */
 
@@ -32,7 +33,7 @@ body {
 	background: url('/assets/img/bg.jpg') 50% 0 repeat fixed;
 }
 
-.top-banner > a {
+.top-banner > .sfilm-logo {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -44,6 +45,20 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.top-banner > div > .top-banner-header {
+    width: 80%;
+    height: auto;
+}
+
+.top-banner > .top-banner-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: auto;
 }
 
 .top-banner h1 {
@@ -102,7 +117,7 @@ body {
     font-weight: bold;
     font-size: 1.6em;
     margin-bottom: 10px;
-    color: #1b7069;
+    color: #141d63;
 }
 
 .content p .seperator {
@@ -157,6 +172,15 @@ body {
 }
 
 @media screen and (max-width : 768px) {
+
+    .top-banner > div > .top-banner-header {
+        width: 100%;
+    }
+
+    .top-banner > .top-banner-footer {
+        width: 30%;
+    }
+    
     .content-width-top {
         max-width: 90%;
     }

@@ -28,6 +28,13 @@ body {
 	background: url('/assets/img/bg.jpg') 50% 0 repeat fixed;
 }
 
+.top-banner > a {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
 .top-banner > div {
     position: absolute;
     top: 50%;

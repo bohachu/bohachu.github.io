@@ -2,6 +2,8 @@ $(function() {
 	
 	// Cache the Window object
 	var $window = $(window);
+    //var pos = $("p").position();
+    //var yStartPos = ;
 	
 	// Parallax Backgrounds
 	// Tutorial: http://code.tutsplus.com/tutorials/a-simple-parallax-scrolling-technique--net-27641
